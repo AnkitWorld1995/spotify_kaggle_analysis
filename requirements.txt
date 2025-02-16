@@ -1,0 +1,10 @@
+certifi==2025.1.31
+charset-normalizer==3.4.1
+idna==3.10
+logger==1.4
+psycopg2==2.9.10
+py4j==0.10.9.7
+pyspark==3.5.4
+requests==2.32.3
+urllib3==2.3.0
+pytest==7.3.1

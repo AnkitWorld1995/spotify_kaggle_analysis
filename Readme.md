@@ -2,7 +2,7 @@
 
 ## Overview
 
-Spotify Kaggle Analysis is a comprehensive end-to-end data pipeline that efficiently extracts Spotify datasets from Kaggle, performs advanced transformations using Apache Spark, and seamlessly loads the processed data into PostgreSQL for further analysis and insights.
+Spotify Kaggle Analysis is a comprehensive end-to-end data pipeline that efficiently extracts Spotify datasets from Kaggle, performs advanced transformations using Apache Spark, and seamlessly loads the processed data into PostgreSQL for further analysis and insights. The README file also includes a detailed Big Data Cloud Architecture solution leveraging GCP services. It outlines a scalable, efficient, and robust design for the data pipeline, ensuring seamless data ingestion, transformation, and storage.
 
 ## Prerequisites
 

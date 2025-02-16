@@ -1,0 +1,27 @@
+kaggle:
+  username: "your_kaggle_username"
+  key: "your_kaggle_key"
+  base_url: "https://www.kaggle.com/api/v1/datasets/download/tonygordonjr/spotify-dataset-2023/"
+  dataset_id_list: ["spotify-albums_data_2023.csv", "spotify_tracks_data_2023.csv"]
+
+paths:
+  extract_zip_path: "./data/spotify_dataset.zip"
+  extract_path: "./data"
+
+spark:
+  jars: "./jars/postgresql-42.7.3.jar"
+
+files:
+  albums: "spotify-albums_data_2023.csv"
+  tracks: "spotify_tracks_data_2023.csv"
+
+postgres:
+  url: "jdbc:postgresql://localhost:5432/postgres"
+  schema: "spotify"
+  table: "spotify_master"
+  user: "postgres"
+  password: "postgres"
+  driver: "org.postgresql.Driver"
+  host: "localhost"
+  port: 5432
+  database: "postgres"
